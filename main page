@@ -3,20 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Xiaoling Lin | Interaction Designer</title>
+    <title>Xiaoling Lin | UX Designer</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <div class="logo">
             <h1>Xiaoling Lin</h1>
-            <p>Interaction Design</p>
+            <p>UX Design</p>
         </div>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
@@ -24,13 +25,39 @@
 
     <main>
         <section class="hero">
-            <h2>Welcome to My Interactive Design World</h2>
-            <p>Explore my creative journey in interaction design.</p>
+            <h2>Welcome to My UX Design World</h2>
+            <p>Explore my creative journey in user experience design.</p>
         </section>
 
         <section class="intro">
             <h3>About Me</h3>
-            <p>I'm Xiaoling Lin, an interaction designer with a passion for creating intuitive, user-centered experiences. I believe in the power of design to solve real-world problems.</p>
+            <p>I'm Xiaoling Lin, a UX designer with a passion for creating intuitive, user-centered experiences. I believe in the power of design to solve real-world problems.</p>
+        </section>
+
+        <section class="portfolio">
+            <h3>Portfolio</h3>
+            <p>Take a look at some of my recent projects and design work.</p>
+            <!-- Add portfolio items here -->
+        </section>
+
+        <section class="testimonials">
+            <h3>Testimonials</h3>
+            <p>Read what my clients have to say about my work.</p>
+            <!-- Add testimonials here -->
+        </section>
+
+        <section class="contact">
+            <h3>Contact Me</h3>
+            <p>Feel free to reach out for collaborations or just a friendly chat.</p>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
         </section>
     </main>
 
